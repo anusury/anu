@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+.background {
+    background: black;
+    background-blend-mode: darken;
+    background-size: cover;
+}
+.nav-list {
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img {
+    width: 100px;
+    border-radius: 100px;
+}
+.nav-list li {
+    list-style: none;
+    padding: 26px 30px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a :hover {
+    color:chartreuse;
+}
+
+.rightnav {
+    width: 30%;
+    text-align: right;
+}
+
+#search {
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+.clgname{
+   
+    font-weight: bolder;
+}
+.firstsection{
+    background-color: khaki;
+    background-position: unset;
+}
+.firstsection .first{
+    text-align: center;
+    font-weight: bolder;
+    font-display: inline;
+    color: darkblue;
+}
+.first:hover{
+    color: darkgoldenrod;
+    font-style: inherit;
+}
+.firstsection .second{
+    text-align: center;
+    text-decoration: yellowgreen;
+    font-weight: bold;
+}
+
+
+.caption11{
+    position: relative;
+    bottom: 300px;
+    color: violet;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.caption12{
+    position: relative;
+    bottom: 220px;
+    color: violet;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.caption13{
+    position: relative;
+    bottom: 500px;
+    left: 390px;
+    color: violet;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.secondsection{
+    
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+    
+}
+.secondsection .name{
+    text-align: center;
+}
+
+.boxcontainer{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 70px;
+    background-color:mintcream;
+}
+.boxcontainer .box , .box1,.box2,.box3,.box4,.box5,.box6{
+    height: 500px;
+    width: 300px;
+    margin: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px rgba(0,0,0,.3);
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.boxcontainer .box::after, .boxcontainer .box::before ,.box1::after::after, .boxcontainer .box3::before{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    opacity: .5;
+    content: '';
+    background: rgb(153, 101, 153);
+}
+.boxcontainer .box::before, .box1::before,.box2::before,.box3::before,.box4::before,.box5::before,.box6::before{
+    top: -10%;
+    left: 80%;
+}
+
+.boxcontainer .box::after,.box1::after, .box2::after, .box3::after,.box4::after,.box5::after,.box6::after{
+    bottom: -10%;
+    right: 80%;
+}
+
+.boxcontainer .box .title,.box1 .title,.box2 .title,.box3 .title,.box4 .title,.box5 .title,.box6 .title{
+    margin: 30px 0;
+    font-size: 26px;
+    color:lightcoral
+}
+.boxcontainer .box .lab,.box1 .lab,.box2 .lab,.box3 .lab,.box4 .lab,.box5 .lab,.box6 .lab{
+    height: 100px;
+    width: 160px;
+    background: rgb(197, 178, 197);
+    color:black;
+    padding: 60px 0 0;
+    margin: 0 auto 25px;
+    border-radius: 10%;
+}
+
+.boxcontainer .box .price .department,.box1 .price .department,.box2 .price .department,.box3 .price .department,.box4 .price .department,.box5 .price .department,.box6 .price .department{
+    font-size: 35px;
+    line-height: 35px;
+    font-weight: 300;
+}
+.boxcontainer .box ul li,.box1 ul li,.box2 ul li,.box3 ul li,.box4 ul li,.box5 ul li,.box6 ul li{
+   
+    text-align: left;
+    padding-left: 55px;
+    margin: 20px auto;
+    color:mediumvioletred;
+    list-style: none;
+}
+
+.boxcontainer .box ul li i, .box1 ul li i,.box2 ul li i,.box3 ul li i,.box4 ul li i,.box5 ul li i,.box6 ul li i{
+    padding: 0 10px;
+    color:palegreen;
+}
+.boxcontainer .box button,.box1 button,.box2 button,.box3 button,.box4 button,.box5 button,.box6 button{
+    height: 40px;
+    width: 140px;
+    outline: none;
+    border-radius: 50px;
+    background: white;
+    color: rgb(72, 22, 190);
+    font-size: 17px;
+    border: 2px solid rgb(94, 57, 94);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.boxcontainer .box button:hover,.box1 button:hover ,.box2 button:hover,.box3 button:hover,.box4 button:hover,.box5 button:hover,.box6 button:hover{
+    background: rgb(94, 57, 94);
+    color: white;
+    border: 2px solid white;
+}
+.thirdsection{
+    background-color:grey;
+
+}
+.thirdsection .tittle{
+    text-align: center;
+    color: crimson;
+    font-weight: bolder;
+
+}
+.thirdsection .tittle:hover{
+    color: darkblue;
+    
+}
+.thirdsection .tittle:visited{
+    font-style: italic;
+}
+.thirdsection .subtittle{
+    text-align: center;
+    color: cyan;
+}
+.thirdsection .subtittle:hover{
+    color: darkorange;
+}
+.thirdsection .number{
+    text-align: center;
+    text-decoration: darkred;
+}
+.thirdsection .objective{
+    text-align: center;
+    font-weight: bold;
+}
+.fourthsection{
+    background-color:lemonchiffon;
+    display: flex;
+    
+}
+.fourthsection .tittle{
+    text-align: center;
+    font-weight: bolder;
+    font-style: normal;
+    
+}
+.fourthsection .first{
+    position: relative;
+   
+    left: 500px;
+
+}
+.fourthsection .speech{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: magenta;
+}
+.fourthsection .second{
+    position: relative;
+    left:500px;
+
+}
+.fourthsection .speech1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: magenta;
+}
+
+.fifthsection{
+    background-color:seashell;
+}
+.fifthsection .center{
+    text-align: center;
+}
+.fifthsection .admission{
+    font-weight: bolder;
+    text-align: left;
+}
+
+
+.text-footer {
+    text-align: center;
+    padding: 30px 0;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+
